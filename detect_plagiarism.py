@@ -26,9 +26,10 @@ def detect_plagiarism(text):
     #     print('Title = %s' % result.getTitle())
     #     print('Introduction = %s' % result.getIntroduction())
 
-    max_plagiarism = sorted(process.getResutls(), key=lambda x: x.getPercents(), reverse=True)[0]
+    max_plagiarism_percentage = \
+        sorted(process.getResutls(), key=lambda x: x.getPercents(), reverse=True)[0]
 
-    print('%s%% Plagiarism Detected.' % max_plagiarism)
+    print('%s%% Plagiarism Detected.' % max_plagiarism_percentage)
 
 
 if __name__ == '__main__':

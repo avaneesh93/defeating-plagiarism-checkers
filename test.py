@@ -1,3 +1,4 @@
+from PyDictionary import PyDictionary
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
@@ -6,3 +7,5 @@ stopwords = stopwords.words()
 tokens = [x for x in word_tokenize(sentence) if x not in stopwords]
 
 print(tokens)
+dictionary = PyDictionary()
+print(dictionary.synonym("best"))
