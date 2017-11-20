@@ -2,13 +2,17 @@ import re
 
 import wikipedia as w
 from nltk import sent_tokenize
-from wikipedia.exceptions import DisambiguationError
+from wikipedia.exceptions import DisambiguationError, PageError
 
 
-def get_sentences_from_wiki(wiki_pages=1, print_sentence=False):
-    titles = w.random(wiki_pages)
+def get_sentences_from_wiki(sentences_amount=100, print_sentence=False,
+                            save_to_file=False, file_name=None):
+    # Working on the assumption that one page will give at least one sentence averagely
+    titles = w.random(sentences_amount)
 
     result = []
+
+    count = 0
 
     for title in titles:
         try:
@@ -22,9 +26,20 @@ def get_sentences_from_wiki(wiki_pages=1, print_sentence=False):
                 if print_sentence:
                     print(sentence)
 
-        except DisambiguationError:
+                count += 1
+
+                if count == sentences_amount:
+
+                    if save_to_file:
+                        save_sentences_to_file(result, file_name)
+
+                    return result
+
+        except (DisambiguationError, PageError):
             pass
 
+    if save_to_file:
+        save_sentences_to_file(result, file_name)
     return result
 
 
@@ -47,5 +62,13 @@ def skip_sentence(sentence, min_words=10):
         return True
 
 
+def save_sentences_to_file(lines, file_name):
+    file = open(file_name, 'w')
+
+    for x in lines:
+        file.write('%s\n' % x)
+
+
 if __name__ == '__main__':
-    get_sentences_from_wiki(wiki_pages=100, print_sentence=True)
+    sentences = get_sentences_from_wiki(sentences_amount=10000, print_sentence=False,
+                                        save_to_file=True, file_name='sentences_from_wiki.txt')
