@@ -15,4 +15,3 @@ if __name__ == '__main__':
     tool = language_check.LanguageTool('en-US')
     data = u'This is an wrong sentence. A sentence with a error in the Hitchhiker’s Guide tot he Galaxy'
     check(tool, data)
-
