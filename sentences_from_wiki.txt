@@ -773,7 +773,6 @@ This results in the home side gaining fewer points for winning and losing more p
 Because of this, any advantage that a side may have by playing in front of their home crowd is cancelled out.
 Countries that have not played a test for two years are removed from the ranking system and the list.
 If they become active again, they resume their previous rating.
-They could sell this to users where graphical output or realtime operation would be more important than outright performance.
 The pair returned with an updated business plan that outlined two phases for the company's development.
 They would start by selling computer modules as stand-alone devices that could be purchased separately and wired together to produce a number of different digital systems for lab use.
 They were then connected together using banana plug patch cords inserted at the front of the modules.
@@ -998,12 +997,8 @@ A company selling shares is never required to repay the capital to its public in
 Details of the proposed offering are disclosed to potential purchasers in the form of a lengthy document known as a prospectus.
 Underwriters provide several services, including help with correctly assessing the value of shares (share price) and establishing a public market for shares (initial sale).
 Alternative methods such as the dutch auction have also been explored.
-Like modern joint-stock companies, the publicani were legal bodies independent of their members whose ownership was divided into shares, or partes.
-The shares fluctuated in value, encouraging the activity of speculators, or quaestors.
-Mere evidence remains of the prices for which partes were sold, the nature of initial public offerings, or a description of stock market behavior.
 A company selling common shares is never required to repay the capital to its public investors.
 Those investors must endure the unpredictable nature of the open market to price and trade their shares.
-This type of offering is not dilutive, since no new shares are being created.
 Once a company is listed, it is able to issue additional common shares in a number of different ways, one of which is the follow-on offering.
 This method provides capital for various corporate purposes through the issuance of equity (see stock dilution) without incurring any debt.
 This ability to quickly raise potentially large amounts of capital from the marketplace is a key reason many companies seek to go public.
@@ -1032,11 +1027,7 @@ When the quiet period is over, generally the underwriters will initiate research
 A three-day waiting period exists for any member that has acted as a manager or co-manager in a secondary offering.
 A "stag" is a party or individual who subscribes to the new issue expecting the price of the stock to rise immediately upon the start of trading.
 Thus, stag profit is the financial gain accumulated by the party or individual resulting from the value of the shares rising.
-The practice already has an ambulance response base, a minor injury clinic, a fracture clinic and acommunity pharmacy.
 At present, the number of genera in this family is under debate.
-In many cases, the wall of the sporangium and the spore have fused.
-Zygospores tend to be ornamented and reddish-brown with opposed suspensors.
-In other words, the domain was defined in terms of kokudaka, not land area.
 This led her increasingly to examine the uses of silver at the table.
 On release, the album was received negatively by the majority of music critics.
 In retrospect, perhaps that is exactly what we should have done".
@@ -1105,16 +1096,13 @@ A pass through the secondary "ram air heat exchanger" cools the air while mainta
 The air then passes through a turbine which expands the air to further reduce heat.
 Similar in operation to a turbo-charger unit, the compressor and turbine are on a single shaft.
 The energy extracted from the air passing through the turbine is used to power the compressor.
-Then, the air usually will pass through a water separator coalescer or the sock.
 The sock retains the dirt and oil from the engine bleed air to keep the cabin air cleaner.
 This water removal process prevents ice from forming and clogging the system, and keeps the cockpit and cabin from fogging on ground operation and low altitudes.
 Nearly all jetliners use a modulating door on the ram air inlet to control the amount of cooling airflow through the primary and secondary ram air heat exchangers.
 To increase ram air recovery, nearly all jetliners use modulating vanes on the ram air exhaust.
 A "ram air fan" within the ram system provides ram air flow across the heat exchangers when the aircraft is on the ground.
 Air from the "mix manifold" is directed to overhead distribution nozzles  in the various "zones" of the aircraft.
-Air is also supplied to individual gaspers: small, circular vents above each passenger seat that can be adjusted by passengers for their personal comfort.
 A revolving control on the vent can be turned to adjust ventilation between no air output at all and a fairly substantial breeze.
-A master control for gaspers is located in the cockpit, and gaspers may be temporarily turned off during certain phases of flight, when the load on the engines from bleed-air demands must be minimized (e.g.
 Note that a lower cabin altitude is a higher pressure.
 The cabin pressure is controlled by a "cabin pressure schedule", which associates each aircraft altitude with a cabin altitude.
 The atmosphere at typical jetliner cruising altitudes is generally very dry and cold; the outside air pumped into the cabin on a long flight has the potential to cause condensation which might in turn cause corrosion or electrical faults, and is thus eliminated.
@@ -1129,7 +1117,6 @@ It was generally known that most of the texts had been translated, but were stil
 Such reconstruction is unique in the sense that if the original photographs had been given to a hundred different researchers, a hundred different reconstructions would be made.
 Subsets of the prime numbers may be generated with various formulas for primes.
 There are known formulae to evaluate the prime-counting function (the number of primes below a given value) faster than computing the primes.
-The name "emirp" is obtained by reversing the word "prime".
 It is therefore sometimes called "the oddest prime" as a pun on the non-mathematical meaning of "odd".
 This means all digits except the middle digit are equal.
 As with many farms in the area, the family held a farm tenancy rather than owning the land themselves.
@@ -1148,16 +1135,9 @@ The building consisted of a banking chamber, strongroom, manager's room, clerk's
 The complex, on half an acre of land, also included a temporary brick kitchen, servant's rooms, outhouses and wooden stables.
 The end bays of these five bay loggias project slightly from the face of the building and are surmounted by triangular pediments.
 The end bays emphasise the two principal entrances of the building, the one to the northern end providing access to the ground floor, former banking chamber, and on the southern end providing access to the stair hall leading to the first floor.
-At the ground floor level the arcaded loggia features round headed arched openings, full length in the end bays indicating openings and partially infilled with a heavy solid masonry balustrade on the three central bays.
-The arcade openings are separated with single storeyed pilasters whose base mouldings align with the balustrade mouldings.
-The intrados, or soffit of the archway is clad with coffered plasterwork.
-The arcaded loggia on the upper floor has fine rounded arched bays, corresponding to those on the ground level but with shorter supports.
 The archways rest on rendered masonry imposts which taper gradually towards the arch supports giving the opening a complex curved shape.
-Italianate masonry balustrading is found in each of the five openings.
 Pilasters separate the openings and these rest on bases which, again, align with the top moulded course, frieze panel and dentilled cornice.
 Ornate plasterwork of foliage arabesque with rosettes is found in the spandrels of the archways in the end bays of the first level.
-Above these, in the pediment of the end bays is a cartouche flanked by acanthus and floral plasterwork.
-Surmounting the apex of the pediment is a plasterwork palmette moulding which also adorn the pediment as acroteria.
 The northern end, where access is provided to the ground floor, is fitted with a double multi panelled door of painted timber, flanked by side lights and all surmounted by a semi-circular fanlight.
 The other entrance, at the southern end, and providing access to the stair hall is fitted with a double timber door of also of multi-panelled design, flanked by long thin window openings and surmounted by a semi-circular fanlight.
 Generally the interior of the building is notable due to the high quality of early decorative elements, in particular excellent quality joinery and plasterwork.
@@ -1167,7 +1147,6 @@ Each section is decorated with moulded ribs dividing the surface of the ceiling 
 The western wall of the former banking chamber has several large cut away openings making the room seem to extend into the rear of the building.
 The archway separates the principal stair from the entrance area.
 This is a dog-legged timber stair with turned balusters and turned newels at the landings and at the base and top.
-A vertical sash window opening is fitted with simple leadlights.
 The hallway has a timber boarded ceiling, plaster cornice and frieze rail, dado rails and timber skirting.
 The former drawing room, now a meeting room, is a large room in the north-eastern corner of the building with two pairs of french doors opening onto the first floor loggia.
 This is the largest room on the floor and has a timber boarded ceiling with timber strip mouldings creating a geometric pattern over the timber boards and skirting boards.
@@ -1175,17 +1154,11 @@ The bedroom has a detailing similar to that of the drawing room but the other ro
 The fire surround is constructed from highly ornate, carved timber forming two fitted shelving units flanking the fireplace and supporting, with five overscaled timber brackets over the fireplace, a substantial timber mantle.
 Several other chimney pieces in the building are derivative of these larger examples.
 The place has a strong or special association with a particular community or cultural group for social, cultural or spiritual reasons.
-Deathrock is a rock music subgenre incorporating horror elements and gloomy, gothic theatrics.
 Lyrics can vary, but are typically introspective and surreal, and deal with the dark themes of isolation, gloom, disillusionment, loss, life, death, etc.
-Despite the similar-sounding name, deathrock has no connection to death metal, which is an extreme subgenre of heavy metal.
 These songs about dead teenagers were noted for their morbid yet romantic view of death, spoken word bridges, and sound effects.
 These songs used sound effects to create a creepy atmosphere, dealt with taboo subjects (such as cannibalism) in a humorous, often campy manner, and are still occasionally played at deathrock clubs.
-These early post-punk deathrock bands were not immediately identified as part of a new subgenre of punk; they were simply considered a darker flavor of punk and were not yet considered part of a separate musical movement.
 During this time, these bands would play at the same venues as punk, hardcore and new wave bands.
-Some clubs even completely dropped deathrock and first generation gothic rock from their setlists to appeal to a crossover crowd.
-These changes alienated many in the goth scene who preferred the livelier, punkier deathrock sound and led them to seek out their earlier deathrock roots.
 In addition to clubs, the revival scene was centered on concerts, special events, parties, and horror movie screenings.
-Websites and online communities sprang up devoted to the discussion of deathrock music, bands and fashions as well as horror movies.
 One is about to become married while the other has a stressful life.
 They visit unforeseen places and construct their worlds together while having a reunion.
 The school, along with the rest of the parish, recently underwent a large renovation, which created a long addition to the school.
@@ -1205,14 +1178,12 @@ He soon became editor of the newspaper, serving in that position for the rest of
 He argued that it was a mass voluntary consensus, the "concurrence of mankind", that gave currency its value as a medium of exchange, not the laws which enforce the usage of currency or the inherent worth of a currency's material composition (such as gold or silver).
 This work also contained the earliest known research on price level changes and price indices.
 Hundreds of millions of cats are kept as pets around the world.
-Cats have either a mutualistic or commensal relationship with humans.
 Cats are also used in the fur trade, as food, and to control pests.
 The ratio of pedigree/purebred cats to random-bred cats varies from country to country.
 Cat fur is used in coats, gloves, hats, shoes, blankets and stuffed toys.
 Because of common crossbreeding, many cats are simply identified as belonging to the homogeneous breeds of domestic longhair and domestic shorthair, depending on their type of fur.
 This number represents about one in ten of all animal bites.
 Many cat bites will become infected, sometimes with serious consequences such as cat-scratch disease, or, more rarely, rabies.
-Cats may also pose a danger to pregnant women and immunosuppressed individuals, since their feces can transmit toxoplasmosis.
 Allergic reactions to cat dander and/or cat saliva are common.
 Whether the risk of developing allergic diseases such as asthma is increased or decreased by cat ownership is uncertain.
 Some owners cope with this problem by taking allergy medicine, along with bathing their cats frequently, since weekly bathing will reduce the amount of dander shed by a cat.
@@ -1231,18 +1202,10 @@ Commercial scratching posts typically are covered in carpeting or upholstery.
 Using a plain wooden surface, or reversing the carpeting on the posts so that the rougher texture of the carpet backing, may be a more attractive alternative to the cat than the floor covering.
 Scratching posts made of sisal rope or corrugated cardboard are also common.
 Although scratching can serve cats to keep their claws from growing excessively long, their nails can be trimmed if necessary.
-Another response to indoor scratching is onychectomy, commonly known as declawing.
 This is a surgical procedure to remove the claw and first bone of each digit of a cat's paws.
-Declawing is most commonly only performed on the front feet.
-A related procedure is tendonectomy, which involves cutting a tendon needed for cats to extend their claws.
-Declawing is a major surgical procedure and can produce pain, and infections.
-In many countries, declawing is prohibited by animal welfare laws and it is ethically controversial within the veterinary community.
-They further argue that many cats would be given up and euthanized were declawing not performed.
-Indoor cats are usually provided with a box containing litter, generally consisting of bentonite, but sometimes other absorbent material such as shredded paper or wood chips, or sometimes sand or similar material can be used.
 It should be cleaned daily and changed often, depending on the number of cats in a household and the type of litter; if it is not kept clean, a cat may be fastidious enough to find other locations in the house for urination or defecation.
 This may also happen for other reasons; for instance, if a cat becomes constipated and defecation is uncomfortable, it may associate the discomfort with the litter box and avoid it in favor of another location.
 Daily attention to the litter box also serves as a monitor of the cat's health.
-Bentonite or clumping litter is a variation which absorbs urine into clumps which can be sifted out along with feces, and thus stays cleaner longer with regular sifting, but has sometimes been reported to cause health problems in some cats.
 Some cats can be trained to use the human toilet, eliminating the litter box and its attendant expense, unpleasant odor, and the need to use landfill space for disposal.
 Many critics have tried to determine the exact nature of the evil hinted at by the story.
 However, others have argued that the brilliance of the novella results from its ability to create an intimate sense of confusion and suspense within the reader.
@@ -1267,19 +1230,14 @@ Successfully passing all the exams for three years (subject to specific exceptio
 It was awarded in three classes with an undivided second class.
 Also, its sleeves are cut square, that is, without the "crescent" shaping of the other universities.
 He came closer to music through the cultural programme at schools and colleges.
-Later he started to sing other folk songs like jaari, sari, bhatiyali, murshidi, bichchhedi (songs of estrangement), marsiya, dehatattwa, and musical plays.
 How the two heroines help him in this quest and who wins his heart forms the crux of the story.
 She is being surrounded by lush green fields and mountains but the college, or even the stage for that matter, is nowhere in sight.
 She is on her way to sit for her college examinations.
 He praises her amazing vocal skills and gives his gold crucifix chain as a gift.
 This incident is one of the most important scenes in the movie.
-Deepa informs him that her scooter has been sent for service.
 David also impresses her mother with his gentlemanly manners which clearly failed to impress the audiences.
 David starts a sermon about the greatness of the crucifix and gives it to the robbers for cleansing their sins.
-Moorthy also promises to help him out by agreeing to fund for two of his model cars.
 But she also feels sorry for him and soon falls prey to his (charms?).
-Deepa gets angry with his behavior and scorns at him.
-Manju takes it as the holy 'mangalsutra', and says that she is now all his.
 David is an aspiring automobile engineer whose dream is to manufacture a family car that is affordable by all.
 It got highly negative reviews from the audience who watched the movie in the theaters.
 The film released in only a few theaters and people who watched the movie without knowing about the film and sam cursed everyone including the theatre owners and distributors.
@@ -1293,7 +1251,6 @@ In addition, they are both significant predictors of various outcomes, such as e
 However, the traditional view in psychology is that there is no meaningful relationship between personality and intelligence and they should be studied as separate entities.
 Firstly, intelligence is considered to be a cognitive process, while personality is recognised as being non-cognitive, and this implies that there is a great distinction between personality and intelligence.
 However, other psychologists argue that the distinction between cognitive and non-cognitive is vague because almost all personality traits have cognitive attributes, although they are more obvious in some traits than in others.
-For example, neuroticism is a personality trait, but is also related to rumination and compulsive thinking about possible threats, while agreeableness is associated with understanding and considering the mental state of others.
 In addition, different methods are generally used to assess intelligence and personality.
 Intelligence is normally measured by means of ability tests, whereas personality is usually assessed by means of questionnaires.
 Therefore, different typical methods cannot prove that the relationship between intelligence and personality is a meaningless one.
@@ -1309,13 +1266,7 @@ Furthermore, some interaction has been found between conscientiousness and intel
 Conscientiousness has been found to be a stronger predictor of safety behaviour in individuals with a low level of intelligence than in those with a high level.
 This interaction may also be found in educational and occupational settings in future studies.
 Therefore, an increase in either conscientiousness or intelligence may clearly compensate for a deficiency in the other.
-In addition, different measures and different sub-traits of extraversion have been found to cause significantly different correlations.
 Although these studies have some differences, they all indicate that intelligence increases with a decrease in negative emotion.
-Some argue that all the aforementioned evidence indicates that neuroticism is related to test performance rather than true intelligence.
-Although it is still debatable if neuroticism reduces general intelligence, this study provided some valuable evidence and a direction for research.
-In addition, some interaction between intelligence and neuroticism has been found.
-Individuals with a high level of neuroticism demonstrated a poor performance, health, and adjustment only if they had a low level of intelligence.
-Therefore, intelligence may act as a buffer and compensate neuroticism in individuals.
 However, some components of agreeableness have been found to be related to intelligence.
 In addition, emotional perception and emotional facilitation, which are also components of agreeableness, have been found to be significantly correlated with intelligence.
 Eggnog  ("egg nog'" or "egg-nog"), historically also known (when alcoholic beverages are added) as milk punch or egg milk punch, is a rich, chilled, sweetened, creamy dairy-based beverage traditionally made with milk, cream, sugar, whipped egg whites and egg yolks (which gives it a frothy texture, and its name) and, in some contexts, distilled spirits such as brandy, rum or bourbon.
@@ -1333,8 +1284,6 @@ Some recipes call for the eggs to be separated so that the egg whites can be whi
 It is technically just a stirred custard made of milk and egg".
 Homemade recipes may use vanilla ice cream blended into the beverage, particularly when the goal is to create a chilled drink.
 Some recipes call for condensed milk or evaporated milk in addition to milk and cream.
-Acidophilus milk, a fermented milk product, has been used to make egg nog.
-While some recipes call for unwhipped heavy cream, in some recipes, whipped cream is added to the mixture, which gives it a frothier texture.
 Various sweeteners are used, such as white sugar, brown sugar and maple syrup.
 Traditional eggnog has a significant fat content, due to the use of cream, and a high sugar content.
 Alcohol used in different national and regional versions of eggnog include brandy, cognac, bourbon, whiskey, sherry, rum and grain alcohol.
@@ -1342,11 +1291,9 @@ Concerns about the safety of raw eggs may be another reason for the decline in h
 Ready-made eggnog versions are seasonally available with different spirits, or without alcohol, to be drunk as bought or used as "mixes" with all the ingredients except the liquor, to be added as desired.
 Eggnog can be served in glasses, mugs or stemmed brandy snifters.
 Eggnog may be served to guests already poured into a glass or other container, or it may be served in a punch bowl, so that guests can serve themselves.
-Both homemade and commercial eggnogs are made in alcohol-free versions and recipes in which alcoholic beverages, generally brown, aged spirits such as bourbon, brandy or rum are added during preparation and/or directly to the cup after the nog is poured.
 For example, for rum, some recipes specify dark rum or spiced rum, for extra flavour.
 This way designated drivers and people who do not drink alcohol can enjoy the drink alcohol-free, but other guests can add the type and/or amount of alcohol to suit their tastes.
 When eggnog is served in a punchbowl, in some cases a "virgin" recipe (alcohol free) and an alcohol-spiked recipe will be served in two separate bowls, labelled so that guests can choose which one.
-While the alcohol added to many homemade eggnogs is a bactericide, eggnog freshly made from raw eggs that are infected with salmonella and not heated can cause food poisoning.
 A very small percentage of raw eggs are infected with salmonella.
 The cause was almost certainly an eggnog made on the spur of the moment, with some cases caused in a secondary outbreak caused by food being handled later by people with contaminated hands.
 However, aged alcoholic eggnog becomes sterilized even if made with contaminated eggs.
@@ -1354,13 +1301,9 @@ Some recipes for homemade eggnog call for egg yolks to be cooked with milk into 
 The high alcohol content of traditional "eggnog inevitably led to problems.
 Alcohol possession at the academy was prohibited, along with drunkenness and intoxication, both of which could lead to expulsion.
 Windows, furniture, and crockery were smashed; banisters were torn from walls, fights broke out.
-The incident resulted in the court-martialing of twenty cadets and one enlisted soldier.
-Esquire states that "[e]ggnog is irredeemable from a nutritional standpoint.
 The pre-packaged stuff is mostly made from high-fructose corn syrup, dairy fat, and a bunch of unlovable additives" and it recommends a "two-drink maximum" for health reasons.
 While some are enthusiastic advocates of the beverage, others are critical of its taste or consistency.
-The smell is like an omelette and the consistency defies belief.
 Both the driver and the armed guard were brutally killed.
-A third man onboard, travelling under an assumed name, participated in the killing and later vanished.
 However all her jobs come to an end due to her interference, causing her employers no end of grief.
 She also takes on the local council over the proposed closure of the community centre.
 It was a marvellous opportunity to be known everywhere, although it totally changes your life.
@@ -1376,16 +1319,10 @@ Playing in clubs, bars, coffee shops, and concert venues, the band focused on bu
 Canteen of high standard that caters to the culinary tastes of a diverse student population.
 It is an old mining town with coal deposits of high quality coke.
 A fire was started by the fighting which reduced the fort to ruins.
-The forewings are pale grey closely and suffusedly irrorated whitish and with a streak of dark fuscous suffusion along the costa from the base to beyond one-fourth, its apex edged beneath with ochreous-brown and terminated by a white tuft.
-Below this is a fine black subcostal dash from the base to one-fifth, beneath its middle an ochreous-brownish dot and there is a transverse blotch from the middle of the costa reaching half across the wing, widest on the costa, with the costal portion dark fuscous, subcostal ochreous-brown and discal dark grey.
-Sometimes, there is a blackish dot beneath this indicating the plical stigma.
-Females have small blackish marks on the dorsum at one-fourth and two-thirds.
 There is an irregular grey or dark grey spot in the disc at three-fourths.
-There are four small dark fuscous spots on the costa posteriorly, and a rounded terminal patch of fuscous or dark fuscous suffusion, in which are obscurely indicated a short blackish discal streak and some blackish terminal dots.
 The organisation provides the infrastructure to enable pharmacy practitioner peers to deliver professional education and training across a diverse range of practice interest areas (e.g.
 The content is provided by coal face clinical practitioners and targeted at various levels of practice, from beginners to expert.
 Its aim was, and continues to be, to support and encourage excellence, leadership and partnership within clinical pharmacy.
-Ferri believes that images are not merely visual stimuli, nor are they static objects.
 An image originates from a received input, which is elaborated in order to express a personal "point of view" that can be communicated through different means.
 All creative processes are defined by the sequence: input, elaboration and output.
 These three terms also describe the synthesis of the digital system.
@@ -1397,14 +1334,9 @@ The school had an international vocation and welcomed students of various nation
 Signs are distinguished both in the direction they point, and in whether the palm faces the viewer or the signer.
 For example, the manual syllables na, ni, ha are all made with the first two fingers of the hand extended straight, but for na the fingers point down, for ni across the body, and for ha toward the viewer.
 The signs for te and ho are both an open flat hand, but in te the palm faces the viewer, and in ho it faces away.
-The signs for ko, su, tu (tsu), ni, hu (fu), he, ru, re, ro imitate the shapes of the katakana for those syllables.
 The syllable yu represents the symbol for 'hot water' (yu) displayed at public bath houses.
-These signs may be modified to reflect the diacritics used in written kana.
 All the modifications involve adding an element of motion to the sign.
-The dakuten or ten ten, which represents voicing, becomes a sideways motion; the handakuten or maru, used for the consonant p, moves upwards, small kana and silent w move inwards, and long vowels move downwards.
 That is, the voiced consonants are produced by moving the sign for the syllable with the corresponding unvoiced consonant to the side.
-The manual kana ga, gi, gu, ge, go are derived this way from ka, ki, ku, ke, ko; likewise, those starting with z, d, b are derived from the s, t, h kana.
-The p kana are derived from the h kana by moving them upwards.
 However, they did note that the action was well done and said it was the goriest of the series.
 Among the hundreds of thousands numbered minor planets only a small fraction have received a name so far.
 Most of these bodies are named for people, in particular astronomers, as well as figures from mythology and fiction.
@@ -1414,13 +1346,10 @@ In the beginning, for example, minor planets were named exclusively after female
 In the first two cases you need only modify the last argument of the address to the name or number of the minor planet.
 As a community school, adult education classes, are held both in the school and in the dedicated community rooms.
 Energy consumption results are published in the school news network.
-The site was published in a blog format with archived playlists organized by subject, situation, hits, cover songs and other categories.
-Users could click on a hyperlink to load and play any of the hundreds of playlists available on the site.
 It has become the most prestigious and desirable "academic" award in college football.
 The trophy recognizes an individual as the absolute best in the country for his academic success, football performance and exemplary community leadership.
 He thought that young men who combined athletic performance with academic excellence should be recognized.
 Early reports indicated that he hit a man-made booby trap, but that ultimately proved to be incorrect information.
-Caselli did not receive immediate medical attention, and he died at the site of his accident from internal injuries.
 The foundation's focus is the safety of riders and racers in the off-road motorcycling industry.
 While they understand the inherent elements of danger, they aim to help minimize it to the best of their ability.
 The foundation has a three-part mission that encompasses safety precautions for riders before, during, and after a racing career.
@@ -1442,22 +1371,18 @@ Each municipality was permitted to open some or all of its polling stations on t
 These are awarded based on the election results in each county, and are unaffected by results in other counties.
 Nineteen of the seats (one for each county) are leveling seats which are given to parties that win fewer seats than their share of the national popular vote entitles them to.
 The system for apportioning seats is biased in favour of rural areas since the area of the county is a factor, but the system of compensation seats reduces the effect this has on final party strength.
-It is agrarian, staunchly eurosceptic and serves the interests of farmers and people in rural areas.
 The party's primary aim is to promote the interests of pensioners and elderly people.
 The opposition parties criticized the sitting government for health care queues and not making more use of private providers, for failure to invest in infrastructure, and for high tax rates.
 As their showings in polling rose, they began to face criticism for highly radical proposals.
 Instead, their election website had shown her with pictures of hearts and of her smiling.
-The party's campaign issues included for secure jobs, healthcare, education and better roads.
 It also campaigned for abolishing the inheritance tax, means-testing for welfare recipients, tax incentives for private savings, simplifying procurement rules to make it easier for smaller businesses to offer for government tenders and the deregulation of alcohol sales.
 All the main parties had strongly condemned both the attacks and the political ideology of the perpetrator.
 Below is a month by month average of all opinion polls.
 We are ready to put a new government in place".
 Several commentators noted in half-jest that all the parties had won something from the election.
-Solberg said that while staying committed to cutting taxes, reducing the size of government and improving health care, she acknowledged a need to make policy concessions.
 All three (other parties) will be tough negotiators in issues close to their hearts".
 Together, they became historical as the first of their gender to have been officially employed in the then two-hundred-year-old history of the royal orchestra.
 They were followed by five more women in the orchestra during the age of liberty.
-In these parts, sapphires, zircon, jasper, prase, rhodonite, crystals and even gold may be found.
 The highway passes through open wheat and grazing lands and deeply wooded slopes, through country towns rich in gold rush history.
 The album was a concept record that dealt with life in modern suburbia.
 The group once again toured extensively behind the album, but frustrations grew between the band and the label.
@@ -1510,10 +1435,8 @@ Games also teach students that failure is inevitable, but not irrevocable.
 In games, players can just start over from the last save.
 A low cost failure ensures that players will take risks, explore and try new things.
 Much of the debate about digital games for education was based on whether or not games are good for education.
-Digital games are a medium with certain affordances and constraints, just as physical labs and virtual simulations are media with certain affordances and constraints.
 Simulations and digital games actually share many similarities in this regard.
 Although there are multiple definitions for games, the key characteristics differentiating games from simulations involve the explicit inclusion of (a) rules for engaging with the simulation, (b) goals for players to pursue, and (c) means for indicating players' progress toward those goals.
-Properly designed, features of games can provide powerful affordances for motivation and learning.
 Individual studies have shown, for example, that well designed games can promote conceptual understanding and process skills, can foster a deeper epistemological understanding of the nature and processes through which science knowledge is developed and can produce gains in players' willingness and ability to engage in scientific practices and discourse.
 They motivate players to persevere and teach players how to play.
 There is tripartite play of identities as learners relate, and reflect on, their multiple real-world identities, a virtual identity, and a projective identity.
@@ -1533,8 +1456,6 @@ They can manipulate the scenario to create digital lives where they can experien
 Players in this game are not allowed to modify a previous decision to alter the outcome, even if the outcome is unpleasant.
 The goal is to survive to the best of their abilities.
 The game is complicated and difficult, just as it would be to live a real life.
-While not all researchers agree, some recent studies have shown the possitive effects of using games for learning.
-Some other aggregated studies also show an increase in learning performance thanks to the use of videogames.
 Researchers from this study found that over time children started to think more aggressively, and when provoked at home, school or in other situations, children reacted much like they did when playing a violent video game.
 But even the harshest critics agree that people can learn something from playing video games.
 While research on the behavioral and cognitive impacts of video games with violence have shown mixed outcomes, games with little or no violence have shown promising results.
@@ -1544,7 +1465,6 @@ Investigating the impact of video games on high school students' engagement and 
 Video games can develop graduate skills in higher education students.
 A multi-user virtual environment for building higher order inquiry skills in science.
 The effects of empathetic virtual characters on presence in narrative centered learning environments.
-Cronberg has been involved in technology and the social sciences policy.
 In her political work she has specialised in defence and security matters, lately in questions of nuclear disarmament.
 It is set at the annual ball of a small town's volunteer fire department, and the plot portrays the series of disasters that occur during the evening.
 The firefighters also plan to present a small ceremonial fire axe as the birthday gift to their retired chairman who has cancer (although they believe he may not know of it).
@@ -1556,7 +1476,6 @@ After much trouble, enough candidates for the beauty contest are found, and they
 However, when the contest begins, the girls decide not to participate and lock themselves in the bathroom.
 Consequently, the crowd uses force to draw the replacement candidates to the stage.
 Soon afterwards, the siren sounds because a house of an old man is on fire.
-All people immediately begin to leave the townhall without paying for the drinks they consumed.
 With the fire engine stuck in the snow, the firefighters manage to save some furniture from the house, but are unable to extinguish the fire.
 To help the old man who lost almost everything in a fire, the people donate their raffle tickets to him.
 However, it is soon discovered almost all of the prizes had been stolen during the ball (except for some items of lesser value).
@@ -1592,7 +1511,6 @@ His other four victories were driven down out of control.
 It also has a slightly marked dorsal stripe and a white margin of the upper lip, lower lip, and chin.
 There are usually four tines, with the absence of bez tine.
 These deer do not have neck manes, but do have stronger and thicker neck muscles than female deer that may give the appearance of a neck mane.
-Bactrian deer live in lowland riparian corridors of mixed deciduous (willow/poplar) vegetation surrounded by deserts.
 They do not migrate but may disperse into adjacent desert areas at night or at times of cooler temperatures.
 However, since then, environmental organizations have taken steps to save the species.
 Occasionally, the brown bear will prey on these deer as well.
@@ -1602,7 +1520,6 @@ The short spire is composed of six convex whorls, slightly flattened above, band
 The aperture is somewhat narrow, toothed upon both edges, colored yellow within.
 The outer lip is dilated, particularly towards the base, and forms externally a very thick convex margin, the external part of which is sharp, undulated, and its internal surface furnished with ten or twelve transverse, distant teeth, resembling folds.
 The inner lip consists of a smooth plate, convex and white, which partially covers the body of the shell.
-The columella presents a pretty deep emargination, above which are observed several transverse thick folds, and some others, less numerous, more oblique, and less distinctly marked.
 The color of the animal is of a beautiful white, marked upon its circumference with triangular flames of a violet brown.
 The tentacles are long, slender and pointed, spotted with brown, in the form of triple rings.
 The trunk is white, the tube very long, pointed with brown and violet at its extremity.
@@ -1617,12 +1534,10 @@ In practice, clock skew reduces the speed of every link to the slowest of all of
 This places an upper limit on the length of a parallel data connection that is usually shorter than a serial connection.
 Creating a parallel port in a computer system is relatively simple, requiring only a latch to copy data onto a data bus.
 One huge advantage of having fewer wires/pins in a serial cable is the significant reduction in the size, the complexity of the connectors, and the associated costs.
-Designers of devices such as smartphones benefit from the development of connectors/ports that are small, durable, and still provide adequate performance.
 The two feeds air most of the same shows at the same times, but occasionally have different schedules.
 She is haunted by a traumatic past, which has made her an alcoholic.
 But in spite of this, the series is renowned for its level of psychological depth.
 It is commonly prepared in the home, but is also sold by roadside vendors.
-Three transcript variants encoding distinct isoforms have been identified for this gene.
 A middle-aged spinster who has been tormented by the letters' suggestions of sexual immorality commits suicide.
 During the latter half of the twentieth century, the population slowly declined.
 He did not however take part in any of the tournament games.
@@ -1635,7 +1550,6 @@ It is possible that they may also at this time have become an all musketeer unit
 Originally they wore grey or white coats but it is possible that red coats may have been issued at this time.
 The regiment consists of pike, musket, drums, ensigns, artillery and camp followers.
 The site of the attack was chosen in order to cause maximum number of casualties.
-Jiusi was convicted of leading a suicide bomber to explode in a civilian market.
 Because of its isolation when a through station, the station closed twice due to poor passenger usage.
 Today there is an adjacent car park at the station.
 The station's prime function as an interchange still remains today.
@@ -1644,7 +1558,6 @@ Several sidings were situated adjacent to the eastern side of the station, south
 Each side of the island platform can receive six carriages.
 As yet, there is no access, to the platform, for passengers with wheelchairs or prams, as access is by staircase only.
 When his mother visited him for the first time since moving in, she gave him a synthesizer, which influenced his decision to focus on music.
-In the final he placed second overall, being the winner of the televoting and second in the jury voting.
 The success of his policy is demonstrated by the fact that his assassination has no political repercussions.
 Kabul soon resumes its wonted aspect and the rest of the country remains perfectly quiet.
 The islands themselves are known by a rather confusing variety of names.
@@ -1652,7 +1565,6 @@ The islands were reconstructed from the ground up over the following years under
 The code has proven extremely effective, as many earthquakes since that time have caused no damage to new buildings.
 In recent decades, the islands have lost much of their population through emigration and the decline of their traditional industries, fishing and marginal agriculture.
 She is forced to join the team after she probes "too far" into their operations.
-Dialogue in the pilot states there are dozens of variations, and the reasons neuros use their abilities vary.
 It is then theorized that the aberrations interfere with the brain's ability to distinguish right from wrong.
 This is realized when she is pushed through a forty story window and falls to her apparent death, only to later revive and recover completely.
 However, she still feels the pain of her injuries before they heal.
@@ -1666,13 +1578,11 @@ Only more recently, though, has this shift become the core of the reform of the 
 The fiscal burden of protective measures increased, due both to lower receipts from import duties and higher domestic expenditure.
 In the meantime, the global economy had entered a cycle of recession, and the perception that opening up markets could improve economic conditions led to calls for a new round of multilateral trade negotiations.
 The round would open up markets in services and high-technology goods, ultimately generating much needed efficiency gains.
-In order to engage developing countries, many of which were "demandeurs" of new international disciplines, agriculture, textiles, and clothing were added to the grand bargain.
 While payments in the amber box had to be reduced, those in the green box were exempt from reduction commitments.
 These subsidies end up flooding global markets with below-cost commodities, depressing prices, and undercutting producers in poor countries, a practice known as dumping.
 While some green box payments only had a minor effect on production and trade, others have a significant impact.
 In many countries large populations living in rural areas, with limited access to infrastructure, farming resources and few employment alternatives.
 Thus, these countries are concerned that domestic rural populations employed in import-competing sectors might be negatively affected by further trade liberalization, becoming increasingly vulnerable to market instability and import surges as tariff barriers are removed.
-A popular drug in the area at that time was quaaludes, which people called "ape shit," or "gorilla biscuits" due to the pill's large size.
 The band made a number of low-fi demo tapes which were sold at a dollar store.
 If you know the band and the lyrics and what we have always stood for this should be clear.
 His reasoning being he "wanted to sing for a band.
@@ -1680,7 +1590,6 @@ He has also done extensive producing for other bands and lately he does a lot of
 Its residents faced hardships for several more years due to civil strife in the surrounding region.
 He also noted that the wider vicinity was characterized by highly irrigated and productive lands, with abundant date palms and quince groves.
 During the ensuing confrontation, the fortress may have been destroyed.
-Among the unearthed structures were the probable remains of a khan (caravanserai), a congregational mosque with a small oratory, and a cavalry barracks.
 There was also a system of canals that brought in fresh water and emptied sewage.
 Affected areas include the fortress's storage rooms and courtyards, as well as the medieval settlement at its foot.
 A large cistern makes up the lowest floor of the keep.
@@ -1709,7 +1618,6 @@ However, she testified, she was unable to talk about her war experiences with he
 The waters of these springs are recommended for stomach and skin ailments.
 This place is set in lush vegetation where the traveller can find peace and escape everyday reality under the shade of ancient plane trees.
 Music nights, dedicated events, exhibitions and theatricals are also put on in summer.
-The word "corb" means "raven" and the name bespeaks the dog's fur colour, which is a clear black.
 It is brave, proud, well-balanced, calm, with a very well developed guard instinct.
 It is proving to be very courageous when facing the predators specific to the area, e.g.
 It is friendly and devoted to its master and family, but doubtful around strangers.
@@ -1729,8 +1637,6 @@ Ronnie, for his part, finds himself ostracized by the community, and the one dat
 Todd never really wanted to be a lawyer and has failed the bar exam twice already; he spends his "studying" time reliving his youth by watching a group of teenage skateboarders.
 Sarah just sits, baffled, wondering how she will raise her daughter, whom she feels she has greatly let down.
 The peasant retained ownership of his property, including land, but owed taxes and levies imposed by the noble.
-Veldamas was a middle stage between laukininkas (a free peasant) and a serf.
-Their daughters could marry anyone their families approved upon a payment of kriena, a wedding tribute to the noble.
 Soldiers were no longer satisfied with sharing spoils of war and demanded land ownership, which would provide steady income during years of peace.
 The organization has quickly become a powerful voice and advocate for today's young professionals of color nationwide.
 By the time of its completion, the loss of the numerous older buildings it replaced was a widespread regret.
@@ -1747,8 +1653,6 @@ While the mice could regenerate limbs, they could not repair damaged heart tissu
 Appropriate drugs replicated the regeneration in unaltered mice, using the same metabolic paths.
 The drugs increased the subjects' metabolic rates, evidently causing the body to heal at higher rates.
 Taylor played in three games during the season, appearing only on special teams.
-The forewings are pale fuscous, irrorated with whitish and somewhat sprinkled with blackish.
-There is a dark reddish-fuscous triangular blotch extending on the costa from the middle to four-fifths, and reaching more than one-third across the wing, edged anteriorly with whitish, and cut near its middle by an oblique strigula of ground colour from the costa.
 A fine transverse-linear blackish mark or pair of connected dots is found on the end of the cell and there are two rather curved series of cloudy dots of blackish irroration running from this blotch posteriorly to the dorsum towards the tornus.
 In his first two years as a professional, he won sixteen of seventeen fights with one draw.
 Another source wrote that the draw was justified, but the bout was clearly close in many respects.
@@ -1766,7 +1670,6 @@ At that time, admission did not require even a high school diploma.
 The second phase will include the removal and digitization of printed materials from the library stacks so that the space can be converted to additional classroom and student space.
 Coursework includes international human rights, comparative legal systems, and international commercial arbitration.
 Along with this, there are also collections of public international law and international trade law.
-Cobas was credited with being the originator of the modern, aluminum frame chassis now used on many modern racing and production motorcycles.
 As motorcycle engine and tire technology progressed, motorcycle frames became more and more stressed.
 Children are also seen running free and playing in the desecration and dilapidation of broken down cars, bricks, mortar, fire and flames.
 There are two poignant images in the video are the dolls head falling to the ground and the child swing from the hanging rope noose.
@@ -1774,13 +1677,9 @@ The surviving manuscripts of the text break off while he is in pursuit of his si
 The pieces range in date from the eighteenth to twentieth centuries.
 The decision was influenced by shifting priorities in the personal lives of the members such as marriage.
 The demolitions were carried out by contractors hired for the job.
-Both conditions show a proliferation of dermal fibroblasts and dendritic cells, thickened collagen bundles, increased elastic fibers, and deposits of mucin.
-While skin involvement is on the foreground, the process may involve any organ and resembles diffuse scleroderma or systemic sclerosis.
-A thermodynamic relationship to toxicity exists if one assumes that the chemotoxicity of the intact complex is minimal but that the toxicity of the components of the complex (free metal and uncomplexed ligands) is substantial.
 Finally, this hypothesis predicts that subtle changes in formulation can further enhance the intrinsic safety of these complexes.
 The intermediate category would have been both ionic linear structure and non-ionic cyclical structure.
 The third category most at risk was unchanged (linear non-ionic).
-Shchekochikhin made his name writing about and campaigning against the influence of organized crime and corruption.
 His relatives were denied an official medical report about the cause of his illness, and were forbidden to take specimens of his tissues for an independent medical investigation.
 By comparison what is going on today in our security services, in our prosecutor's office, all bandits are simply boy scouts.
 Today, it is precisely the people who are needed to fight crime and corruption that have raised the flag of corruption and crime.
@@ -1799,14 +1698,11 @@ Several significant changes were made in the plot and character relationships in
 The positioning and context of several songs were changed as well.
 The film version ends on a brighter and lighter note than the stage musical.
 He noted that "one of the best things about it is that practically nobody is connected to it.
-The toes of the hind feet are arranged in two opposable groups, with the fourth and fifth together, pointing backward when walking on the forest floor.
 The skin is warty and dorsal adult colour is variable from light brown, grey, dark brown, orange to yellowish.
 In terms of colouration there is no well-marked sexual dimorphism.
 The species is most abundant in the high altitude, but is absent in typical farmland and plantation habitats.
 Movement is limited in this species justifying its survival in tiny forest patches.
-Callulina dawida, like other brevicipitids, deposit relatively small clutches of large yolk-rich eggs that are buffered by infertile jelly-filled egg capsules, possibly to prevent the fertile eggs from desiccation during the dry period.
 Eggs hatch at different times and the young ones immediately leave the nest site.
-Callulina dawida reaches sexual maturity within eight months of hatching.
 There are plans to replant several pine and eucalyptus plantations with native tree species.
 The tournament was cut back to nine teams for this event.
 The top left hand corner sported the decade in a number format, the entire background of the sheet was devoted a specific event of that decade (e.g.

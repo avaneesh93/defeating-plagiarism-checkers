@@ -1,15 +1,17 @@
 from __future__ import division
 
-import xml.etree.ElementTree as ET
 import glob
-from collections import defaultdict
 import math
+import xml.etree.ElementTree as ET
+from collections import defaultdict
+
 from sense_mapping import *
 
 FILE_DIR_SEMCOR = "./data/semcor"
 FILE_DIR_MASC = "./data/masc"
 SENSE_MAP1 = "./data/manual_map.txt"
 SENSE_MAP2 = "./data/algorithmic_map.txt"
+
 
 def parse():
     total_doc_count = 0
@@ -79,8 +81,9 @@ if __name__ == '__main__':
     total_sense_count = sum(sense_count.values())
 
     for sense in sense_count.keys():
-        p_word_sense = word_counts[input_word].get(sense, pseudo_count) / sum(word_counts[input_word].values())
-        p_sense = sense_count[sense]/total_sense_count
+        p_word_sense = word_counts[input_word].get(sense, pseudo_count) / sum(
+            word_counts[input_word].values())
+        p_sense = sense_count[sense] / total_sense_count
 
         val = math.log(p_word_sense) + math.log(p_sense)
         if max < val:
