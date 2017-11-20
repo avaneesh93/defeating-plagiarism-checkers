@@ -45,6 +45,7 @@ def get_sentences_from_wiki(sentences_amount=100, print_sentence=False,
 
     if save_to_file:
         save_sentences_to_file(result, file_name)
+
     return result
 
 
@@ -75,6 +76,6 @@ def save_sentences_to_file(lines, file_name):
 
 
 if __name__ == '__main__':
-    sentences = get_sentences_from_wiki(sentences_amount=1000, print_sentence=False,
+    sentences = get_sentences_from_wiki(sentences_amount=500, print_sentence=False,
                                         save_to_file=True, file_name='sentences_from_wiki.txt',
                                         print_progress=True)
