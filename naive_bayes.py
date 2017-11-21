@@ -1,9 +1,10 @@
 from __future__ import division
 
-import xml.etree.ElementTree as ET
 import glob
-from collections import defaultdict
 import math
+import xml.etree.ElementTree as ET
+from collections import defaultdict
+
 from sense_mapping import *
 
 FILE_DIR_SEMCOR = "./data/semcor"
