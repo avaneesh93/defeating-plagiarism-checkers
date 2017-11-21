@@ -11,7 +11,8 @@ FILE_DIR_MASC = "./data/masc"
 SENSE_MAP1 = "./data/manual_map.txt"
 SENSE_MAP2 = "./data/algorithmic_map.txt"
 
-def parse():
+
+def parse(doc_limit):
     total_doc_count = 0
     sense_count = defaultdict(int)
     word_counts = {}
@@ -19,6 +20,8 @@ def parse():
     total_word_count = 0
 
     for fn in glob.glob(FILE_DIR_SEMCOR + "/" + "*xml"):
+        if 0 < doc_limit <= total_doc_count:
+            break
         tree = ET.parse(fn)
         root = tree.getroot()
         total_doc_count += 1
@@ -39,6 +42,8 @@ def parse():
                 sense_count[sense] += 1
 
     for fn in glob.iglob(FILE_DIR_MASC + "/**/" + "*xml", recursive=True):
+        if 0 < doc_limit <= total_doc_count:
+            break
         tree = ET.parse(fn)
         root = tree.getroot()
         total_doc_count += 1
@@ -58,34 +63,38 @@ def parse():
                 sense_count[sense] += 1
 
     # print(sense_count)
-
+    print(total_doc_count)
     return sense_count, word_counts
 
 
-if __name__ == '__main__':
-    sense_count, word_counts = parse()
-    sense_map = parse_sense_mapping(SENSE_MAP1)
-    sense_map.update(parse_sense_mapping(SENSE_MAP2))
-
-    input_word = "big"
+def naive_bayes(input_word, sense_count, word_counts):
     pseudo_count = 1
     max = float('-inf')
     max_sense = None
 
     if input_word not in word_counts:
-        print("Wut")
-        exit(1)
+        # print("Wut")
+        raise ValueError
 
     total_sense_count = sum(sense_count.values())
 
     for sense in sense_count.keys():
         p_word_sense = word_counts[input_word].get(sense, pseudo_count) / sum(word_counts[input_word].values())
-        p_sense = sense_count[sense]/total_sense_count
+        p_sense = sense_count[sense] / total_sense_count
 
         val = math.log(p_word_sense) + math.log(p_sense)
         if max < val:
             max = val
             max_sense = sense
+
+    return max_sense
+
+
+if __name__ == '__main__':
+    sense_count, word_counts = parse(-1)
+    max_sense = naive_bayes("large", sense_count, word_counts)
+    sense_map = parse_sense_mapping(SENSE_MAP1)
+    sense_map.update(parse_sense_mapping(SENSE_MAP2))
 
     print("Sense = {}".format(max_sense))
     print("WordNet sense = {}".format(sense_map.get(max_sense, None)))
