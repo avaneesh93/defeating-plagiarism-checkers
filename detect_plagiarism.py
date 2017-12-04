@@ -26,15 +26,17 @@ def detect_plagiarism(text):
     #     print('Title = %s' % result.getTitle())
     #     print('Introduction = %s' % result.getIntroduction())
 
-    max_plagiarism_percentage = \
-        sorted(process.getResutls(), key=lambda x: x.getPercents(), reverse=True)[0]
+    max_plagiarism_percentage = 0
+
+    if len(process.getResutls()) > 0:
+        max_plagiarism_percentage = \
+            sorted(process.getResutls(), key=lambda x: x.getPercents(), reverse=True)[
+                0].getPercents()
 
     print('%s%% Plagiarism Detected.' % max_plagiarism_percentage)
 
 
 if __name__ == '__main__':
-    detect_plagiarism('This part will get you started in thinking about designing and analyzing'
-                      ' algorithms. It is intended to be a gentle introduction to how we'
-                      ' specify algorithms, some of the design strategies we will use'
-                      ' throughout this book, and many of the fundamental ideas used'
-                      ' in algorithm analysis.')
+    # text = 'The ecological restoration of islands, or island restoration, is the application of the principles of ecological restoration to islands and island groups.'
+    text = 'The ecological rehabilitation of islands, or island rehabilitation, is the implementation of the rules of ecological rehabilitation to islands and island groups.'
+    detect_plagiarism(text)

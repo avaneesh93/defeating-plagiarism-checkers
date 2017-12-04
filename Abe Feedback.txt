@@ -1,0 +1,4 @@
+scatter plot of rareness of replacement vs. proab of plag
+rareness of word or trigram (maybe can use BOW approach to count frequency)
+use lang model to weed out incoherent replacements
+replace manual w/ automated
