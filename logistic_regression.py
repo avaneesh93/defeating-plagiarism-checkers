@@ -5,8 +5,10 @@ import string
 from collections import defaultdict
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.preprocessing import LabelEncoder
-import pickle
-import os
+from sklearn.model_selection import train_test_split
+from detect_plagiarism import detect_plagiarism
+from get_synonym import *
+from pickle_util import *
 
 
 FILE_DIR_SEMCOR = "./data/semcor"
@@ -107,12 +109,14 @@ def predict_sense(model, sentence, vectorizer):
 
 if __name__ == '__main__':
     if os.path.isfile('model.pkl') and os.path.isfile('vectorizer.pkl'):
-        with open('model.pkl', 'rb') as f:
-            model = pickle.load(f)
-        with open('vectorizer.pkl', 'rb') as f:
-            vectorizer = pickle.load(f)
+        # with open('model.pkl', 'rb') as f:
+        #     model = pickle.load(f)
+        model = load('model.pkl')
+        # with open('vectorizer.pkl', 'rb') as f:
+        #     vectorizer = pickle.load(f)
+        vectorizer = load('vectorizer.pkl')
     else :
-        labeled_featuresets = parse(150)
+        labeled_featuresets = parse(-1)
 
         X, y = list(zip(*labeled_featuresets))
 
@@ -121,13 +125,55 @@ if __name__ == '__main__':
         X = vectorizer.fit_transform(X)
         print("---------Transformed features-----------")
 
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
         model = LogisticRegression()
-        model.fit(X, y)
+        model.fit(X_train, y_train)
 
-        print(model.score(X, y))
-        with open('model.pkl', 'wb') as f:
-            pickle.dump(model, f, pickle.HIGHEST_PROTOCOL)
-        with open('vectorizer.pkl', 'wb') as f:
-            pickle.dump(vectorizer, f, pickle.HIGHEST_PROTOCOL)
+        print(model.score(X_test, y_test))
+        # with open('model.pkl', 'wb') as f:
+        #     pickle.dump(model, f, pickle.HIGHEST_PROTOCOL)
+        save(model, 'model.pkl')
+        # with open('vectorizer.pkl', 'wb') as f:
+        #     pickle.dump(vectorizer, f, pickle.HIGHEST_PROTOCOL)
+        save(vectorizer, 'vectorizer.pkl')
 
-    print(predict_sense(model, ["I", "go", "to", "the", "bank"], vectorizer))
+    with open("sentences_from_wiki.txt") as f:
+        firstNlines = f.readlines()[0:10]
+
+    total_p = 0
+
+    for sentence in firstNlines:
+        # sentence = ["This", "method", "can", "be", "costly", "if", "the", "area", "to", "cover", "is", "large"]
+        sentence_list = sentence.split()
+        sentence_list[-1] = sentence_list[-1].rstrip('.')
+        senses = predict_sense(model, sentence_list, vectorizer)
+
+        p_init = detect_plagiarism(sentence)
+        # print("----------")
+
+        for i in range(0, len(senses)):
+            pos_names = list(get_synonym(senses[i]))
+            if len(pos_names) == 0:
+                continue
+            pos, names = pos_names[0]
+            if pos == 'a':
+                old_word = sentence_list[i]
+                new_word = None
+                for name in names:
+                    if not name == old_word:
+                        new_word = name
+
+                if new_word is not None:
+                    sentence_list[i] = new_word
+
+        print(sentence_list)
+        sentence_list[-1] = sentence_list[-1] + "."
+        p_fin = detect_plagiarism(' '.join(sentence_list))
+        total_p += p_init - p_fin
+
+    print("AVG = {}".format(total_p/100))
+
+    # for sense in senses:
+    #     get_synonym(sense)
+    #     print("-----------")

@@ -5,8 +5,8 @@ from copyleaks.product import Product
 
 
 def detect_plagiarism(text):
-    cloud = CopyleaksCloud(Product.Education, 'dakshjay@gmail.com',
-                           '28C777CE-12BF-4132-97DC-60BD198D618F')
+    cloud = CopyleaksCloud(Product.Education, 'avaneesh.umass@gmail.com',
+                           'C7DC59D1-54D5-4DC3-9EB7-1CC497B9E557')
     process = cloud.createByText(text)
 
     print('Checking for Plagiarism...')
@@ -34,6 +34,7 @@ def detect_plagiarism(text):
                 0].getPercents()
 
     print('%s%% Plagiarism Detected.' % max_plagiarism_percentage)
+    return max_plagiarism_percentage
 
 
 if __name__ == '__main__':
