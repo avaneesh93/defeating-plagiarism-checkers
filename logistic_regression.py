@@ -110,7 +110,7 @@ class LogReg:
                 if 'sense' in child.attrib:
                     sense = child.attrib['sense']
                 else:
-                    sense = NONE_SENSE
+                    sense = self.NONE_SENSE
                 sentence.append(word)
                 sense_list.append(sense)
 
