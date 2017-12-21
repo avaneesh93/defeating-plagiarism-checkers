@@ -8,6 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
+import tokenize_paragraph
 from get_synonym import *
 from pickle_util import *
 
@@ -138,54 +139,41 @@ class LogReg:
 
         return self.model.predict(self.vectorizer.transform(features))
 
-    def get_replacements(self, sentences):
-        replacements = {}
+    def get_replacements(self, all_tokens_of_all_sentences):
+        for sent_index, sentence in enumerate(all_tokens_of_all_sentences):
 
-        for k in range(0, len(sentences)):
-            sentence = sentences[k]
-            sentence_list = sentence.split()
-            sentence_list[-1] = sentence_list[-1].rstrip('.')
-            senses = self.predict_sense(sentence_list)
+            # Build a list of only tokens (without punctuations) in proper index order
+            tokens_of_sentence = [token.word_without_punctuations for token in sentence]
 
-            # p_init = detect_plagiarism(sentence)
-            sentence_map = {}
-            # print("----------")
+            senses = self.predict_sense(tokens_of_sentence)
 
-            for i in range(0, len(senses)):
+            for token_index in range(len(sentence)):
                 new_words = []
-                pos_names = list(get_synonym(senses[i]))
+                pos_names = list(get_synonym(senses[token_index]))
                 if len(pos_names) == 0:
                     continue
+
                 for pos, names in pos_names:
                     if pos == 'a':
-                        old_word = sentence_list[i]
                         for name in names:
-                            if not name == old_word:
+                            if name != tokens_of_sentence[token_index]:
                                 new_words.append(name)
 
                     if new_words:
-                        sentence_map[i] = new_words
+                        sentence[token_index].replacements = new_words
 
-            if len(sentence_map) > 0:
-                replacements[k] = sentence_map
+            all_tokens_of_all_sentences[sent_index] = sentence
 
-                # print(sentence_list)
-                # sentence_list[-1] = sentence_list[-1] + "."
-                # p_fin = detect_plagiarism(' '.join(sentence_list))
-                # total_p += p_init - p_fin
-
-        # print("AVG = {}".format(total_p/100))
-        return replacements
-        # for sense in senses:
-        #     get_synonym(sense)
-        #     print("-----------")
+        return all_tokens_of_all_sentences
 
 
 if __name__ == '__main__':
     os.chdir('..')
 
     with open("./datasets/test.txt") as f:
-        first_n_lines = f.readlines()[0:10]
+        paragraph = f.read()
+
+    all_tokens_of_all_sentences = tokenize_paragraph.tokenize(paragraph)
 
     log_reg = LogReg()
-    print(log_reg.get_replacements(first_n_lines))
+    print(log_reg.get_replacements(all_tokens_of_all_sentences))

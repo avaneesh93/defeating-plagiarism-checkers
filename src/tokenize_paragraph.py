@@ -1,6 +1,9 @@
 from nltk.corpus import gutenberg
 from nltk.tokenize.punkt import PunktTrainer, PunktSentenceTokenizer
 
+from remove_punctuations import remove_surrounding_punctuations
+from token_class import Token
+
 ABBREVIATIONS = ['dr', 'mrs']
 
 
@@ -23,14 +26,27 @@ def get_tokenizer(training_text):
     return tokenizer
 
 
-def tokenize(paragraph):
+def split_paragraph_into_sentences(paragraph):
     training_text = get_training_text()
     tokenizer = get_tokenizer(training_text)
-    sentences = [s for s in tokenizer.tokenize(paragraph) if s is not None]
+    return [s for s in tokenizer.tokenize(paragraph) if s is not None]
 
-    words = {}
 
-    for index, sent in enumerate(sentences):
-        words[index] = sent.split()
+def tokenize(paragraph):
+    sentences = split_paragraph_into_sentences(paragraph)
 
-    print(words)
+    all_tokens_of_all_sentences = []
+
+    for sent_index, sent in enumerate(sentences):
+        tokens_in_this_sentence = []
+
+        for word_index, word in enumerate(sent.split()):
+            token = Token()
+            token.original_word = word
+            token.word_without_punctuations = remove_surrounding_punctuations(word)
+
+            tokens_in_this_sentence.append(token)
+
+        all_tokens_of_all_sentences.append(tokens_in_this_sentence)
+
+    return all_tokens_of_all_sentences
