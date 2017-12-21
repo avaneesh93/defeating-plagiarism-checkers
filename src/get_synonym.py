@@ -1,11 +1,11 @@
-from nltk.corpus import wordnet as wn
-import pickle
 import os
+import pickle
 
+from nltk.corpus import wordnet as wn
 
-INDEX_PATH = "./data/index.sense"
-MANUAL_MAP = "./data/manual_map.txt"
-ALGO_MAP = "./data/algorithmic_map.txt"
+INDEX_PATH = "./datasets/index.sense"
+MANUAL_MAP = "./datasets/manual_map.txt"
+ALGO_MAP = "./datasets/algorithmic_map.txt"
 
 
 def get_synsets(offsets):
@@ -65,7 +65,3 @@ def get_synonym(sense):
     #     print()
 
     return map(lambda sst: (sst.pos(), sst.lemma_names()), ss)
-
-
-if __name__ == '__main__':
-    get_synonym("/dictionary/sense/en_us_NOAD3e_2012/m_en_us1224756.001")

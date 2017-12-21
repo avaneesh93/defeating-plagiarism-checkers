@@ -13,7 +13,7 @@ from pickle_util import *
 
 
 class LogReg:
-    FILE_DIR_SEMCOR = "./data/semcor"
+    FILE_DIR_SEMCOR = "./datasets/semcor"
     NONE_WORD = "$"
     NONE_SENSE = "#"
     encoder = LabelEncoder()
@@ -183,9 +183,8 @@ class LogReg:
 
 if __name__ == '__main__':
     os.chdir('..')
-    os.chdir('datasets')
 
-    with open("test.txt") as f:
+    with open("./datasets/test.txt") as f:
         first_n_lines = f.readlines()[0:10]
 
     log_reg = LogReg()
