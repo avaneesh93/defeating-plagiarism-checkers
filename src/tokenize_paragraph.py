@@ -36,6 +36,7 @@ def split_paragraph_into_sentences(paragraph):
 
 
 def tokenize(paragraph):
+    nltk.download('stopwords')
     stopwords = set(nltk.corpus.stopwords.words('english'))
 
     sentences = split_paragraph_into_sentences(paragraph)
