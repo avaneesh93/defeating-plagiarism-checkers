@@ -43,7 +43,7 @@ def tokenize(paragraph):
         for word_index, word in enumerate(sent.split()):
             token = Token()
             token.original_word = word
-            token.word_without_punctuations = remove_surrounding_punctuations(word)
+            token.word_without_punctuations = remove_surrounding_punctuations(word).lower()
 
             tokens_in_this_sentence.append(token)
 

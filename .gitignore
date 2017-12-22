@@ -4,3 +4,5 @@
 __pycache__/
 *.pkl
 datasets/wiki.en.vec
+datasets/model.pkl
+datasets/vectorizer.pkl

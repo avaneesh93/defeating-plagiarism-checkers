@@ -14,19 +14,17 @@ from pickle_util import *
 
 
 class LogReg:
-    FILE_DIR_SEMCOR = "./datasets/semcor"
+    FILE_MODEL_PKL = './../datasets/model.pkl'
+    FILE_VECTORIZER_PKL = './../datasets/vectorizer.pkl'
+    FILE_DIR_SEMCOR = "./../datasets/semcor"
     NONE_WORD = "$"
     NONE_SENSE = "#"
     encoder = LabelEncoder()
 
     def __init__(self):
-        if os.path.isfile('model.pkl') and os.path.isfile('vectorizer.pkl'):
-            # with open('model.pkl', 'rb') as f:
-            #     model = pickle.load(f)
-            self.model = load('model.pkl')
-            # with open('vectorizer.pkl', 'rb') as f:
-            #     vectorizer = pickle.load(f)
-            self.vectorizer = load('vectorizer.pkl')
+        if os.path.isfile(self.FILE_MODEL_PKL) and os.path.isfile(self.FILE_VECTORIZER_PKL):
+            self.model = load(self.FILE_MODEL_PKL)
+            self.vectorizer = load(self.FILE_VECTORIZER_PKL)
         else:
             labeled_featuresets = self.parse(-1)
 
@@ -45,11 +43,11 @@ class LogReg:
             print(model.score(X_test, y_test))
             # with open('model.pkl', 'wb') as f:
             #     pickle.dump(model, f, pickle.HIGHEST_PROTOCOL)
-            save(model, 'model.pkl')
+            save(model, self.FILE_MODEL_PKL)
             self.model = model
             # with open('vectorizer.pkl', 'wb') as f:
             #     pickle.dump(vectorizer, f, pickle.HIGHEST_PROTOCOL)
-            save(vectorizer, 'vectorizer.pkl')
+            save(vectorizer, self.FILE_VECTORIZER_PKL)
             self.vectorizer = vectorizer
 
     def get_feature(self, sentence, index):
@@ -142,7 +140,7 @@ class LogReg:
     def get_replacements(self, all_tokens_of_all_sentences):
         for sent_index, sentence in enumerate(all_tokens_of_all_sentences):
 
-            # Build a list of only tokens (without punctuations) in proper index order
+            # Build a list of only tokens (without punctuations)
             tokens_of_sentence = [token.word_without_punctuations for token in sentence]
 
             senses = self.predict_sense(tokens_of_sentence)
@@ -160,7 +158,7 @@ class LogReg:
                                 new_words.append(name)
 
                     if new_words:
-                        sentence[token_index].replacements = new_words
+                        sentence[token_index].replacements_logreg = new_words
 
             all_tokens_of_all_sentences[sent_index] = sentence
 
@@ -168,12 +166,14 @@ class LogReg:
 
 
 if __name__ == '__main__':
-    os.chdir('..')
-
-    with open("./datasets/test.txt") as f:
-        paragraph = f.read()
+    paragraph = open('./../datasets/test.txt', encoding='utf8').read()
 
     all_tokens_of_all_sentences = tokenize_paragraph.tokenize(paragraph)
 
     log_reg = LogReg()
-    print(log_reg.get_replacements(all_tokens_of_all_sentences))
+
+    all_tokens_of_all_sentences = log_reg.get_replacements(all_tokens_of_all_sentences)
+
+    for sentence in all_tokens_of_all_sentences:
+        for token in sentence:
+            print(token)

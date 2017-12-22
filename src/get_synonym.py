@@ -3,9 +3,9 @@ import pickle
 
 from nltk.corpus import wordnet as wn
 
-INDEX_PATH = "./datasets/index.sense"
-MANUAL_MAP = "./datasets/manual_map.txt"
-ALGO_MAP = "./datasets/algorithmic_map.txt"
+INDEX_PATH = "./../datasets/index.sense"
+MANUAL_MAP = "./../datasets/manual_map.txt"
+ALGO_MAP = "./../datasets/algorithmic_map.txt"
 
 
 def get_synsets(offsets):

@@ -2,16 +2,15 @@ from __future__ import division
 
 import glob
 import math
-import os
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 
 from sense_mapping import *
 
-FILE_DIR_SEMCOR = "./datasets/semcor"
-FILE_DIR_MASC = "./datasets/masc"
-SENSE_MAP1 = "./datasets/manual_map.txt"
-SENSE_MAP2 = "./datasets/algorithmic_map.txt"
+FILE_DIR_SEMCOR = "./../datasets/semcor"
+FILE_DIR_MASC = "./../datasets/masc"
+SENSE_MAP1 = "./../datasets/manual_map.txt"
+SENSE_MAP2 = "./../datasets/algorithmic_map.txt"
 
 
 def parse(doc_limit):
@@ -94,8 +93,6 @@ def naive_bayes(input_word, sense_count, word_counts):
 
 
 if __name__ == '__main__':
-    os.chdir('..')
-
     sense_count, word_counts = parse(-1)
     max_sense = naive_bayes("large", sense_count, word_counts)
     sense_map = parse_sense_mapping(SENSE_MAP1)
