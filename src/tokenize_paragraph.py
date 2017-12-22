@@ -11,6 +11,8 @@ ABBREVIATIONS = ['dr', 'mrs']
 def get_training_text():
     text = ""
 
+    nltk.download('gutenberg')
+
     for file_id in gutenberg.fileids():
         text += gutenberg.raw(file_id)
 
