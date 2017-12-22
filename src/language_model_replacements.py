@@ -14,10 +14,14 @@ class LanguageModelReplacement:
     def set_language_model_replacements(self, all_tokens_of_all_sentences):
         for sentence in all_tokens_of_all_sentences:
             for token in sentence:
-                for similar_word, _ in self.model.similar_by_word(token.word_without_punctuations):
-                    if similar_word != token.word_without_punctuations:
-                        token.replaced_word = similar_word
-                        break
+                try:
+                    for similar_word, _ in self.model.similar_by_word(
+                            token.word_without_punctuations):
+                        if similar_word != token.word_without_punctuations:
+                            token.replaced_word = similar_word
+                            break
+                except KeyError:
+                    pass
 
 
 if __name__ == '__main__':
