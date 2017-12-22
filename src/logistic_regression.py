@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
-import tokenize_paragraph
+import tokenize_input_text
 from get_synonym import *
 from pickle_util import *
 
@@ -162,9 +162,9 @@ class LogReg:
 
 
 if __name__ == '__main__':
-    paragraph = open('./../datasets/test.txt', encoding='utf8').read()
+    input_text = open('./../datasets/input_text.txt', encoding='utf8').read()
 
-    all_tokens_of_all_sentences = tokenize_paragraph.tokenize(paragraph)
+    all_tokens_of_all_sentences = tokenize_input_text.tokenize(input_text)
 
     log_reg = LogReg()
 

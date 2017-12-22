@@ -30,17 +30,17 @@ def get_tokenizer(training_text):
     return tokenizer
 
 
-def split_paragraph_into_sentences(paragraph):
+def split_input_text_into_sentences(input_text):
     training_text = get_training_text()
     tokenizer = get_tokenizer(training_text)
-    return [s for s in tokenizer.tokenize(paragraph) if s is not None]
+    return [s for s in tokenizer.tokenize(input_text) if s is not None]
 
 
-def tokenize(paragraph):
+def tokenize(input_text):
     nltk.download('stopwords')
     stopwords = set(nltk.corpus.stopwords.words('english'))
 
-    sentences = split_paragraph_into_sentences(paragraph)
+    sentences = split_input_text_into_sentences(input_text)
 
     all_tokens_of_all_sentences = []
 

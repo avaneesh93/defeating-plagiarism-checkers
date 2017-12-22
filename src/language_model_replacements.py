@@ -1,7 +1,7 @@
 import gensim
 
 import remove_punctuations
-import tokenize_paragraph
+import tokenize_input_text
 
 FILE_FACEBOOK_WORD_VECTORS = './../datasets/wiki.en.vec'
 
@@ -31,9 +31,9 @@ class LanguageModelReplacement:
 
 
 if __name__ == '__main__':
-    paragraph = open('./../datasets/test.txt', encoding='utf8').read()
+    input_text = open('./../datasets/input_text.txt', encoding='utf8').read()
 
-    all_tokens_of_all_sentences = tokenize_paragraph.tokenize(paragraph)
+    all_tokens_of_all_sentences = tokenize_input_text.tokenize(input_text)
 
     lmr = LanguageModelReplacement()
     lmr.set_language_model_replacements(all_tokens_of_all_sentences)
