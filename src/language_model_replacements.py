@@ -1,5 +1,6 @@
 import gensim
 
+import remove_punctuations
 import tokenize_paragraph
 
 FILE_FACEBOOK_WORD_VECTORS = './../datasets/wiki.en.vec'
@@ -16,10 +17,12 @@ class LanguageModelReplacement:
             for token in sentence:
                 try:
                     replacement_words_and_probs = []
-                    for similar_word_and_prob in self.model.similar_by_word(
+                    for word, prob in self.model.similar_by_word(
                             token.word_without_punctuations):
-                        if similar_word_and_prob[0] != token.word_without_punctuations:
-                            replacement_words_and_probs.append(similar_word_and_prob)
+                        word = remove_punctuations.remove_surrounding_punctuations(word)
+
+                        if word != token.word_without_punctuations:
+                            replacement_words_and_probs.append((word, prob))
 
                     if replacement_words_and_probs:
                         token.replacements_langmod_and_prob = replacement_words_and_probs

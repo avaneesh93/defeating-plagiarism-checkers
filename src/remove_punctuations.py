@@ -1,4 +1,4 @@
-PUNCTUATIONS = ['.', ',', '\'', '"', '?', '!']
+PUNCTUATIONS = ['.', ',', '\'', '"', '?', '!', '‘', '—', '#', '…']
 
 
 def remove_surrounding_punctuations(word):
