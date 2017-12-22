@@ -9,9 +9,11 @@ class Token:
     replacements_langmod = None
 
     def __str__(self):
-        return "Token(original_word=%s, replaced_word=%s, word_without_punctuations=%s, " \
-               "is_stopword=%s, pos=%s, lm_probability=%s, replacements_logreg=%s, " \
-               "replacements_langmod=%s)" % \
-               (self.original_word, self.replaced_word, self.word_without_punctuations,
-                self.is_stopword, self.pos, self.lm_probability,
-                self.replacements_logreg, self.replacements_langmod)
+        sb = []
+        for key in self.__dict__:
+            sb.append("{key}='{value}'".format(key=key, value=self.__dict__[key]))
+
+        return ', '.join(sb)
+
+    def __repr__(self):
+        return self.__str__()

@@ -1,3 +1,4 @@
+wikipedia
 gensim
 scikit-learn
 copyleaks
