@@ -15,11 +15,14 @@ class LanguageModelReplacement:
         for sentence in all_tokens_of_all_sentences:
             for token in sentence:
                 try:
-                    for similar_word, _ in self.model.similar_by_word(
+                    replacement_words_and_probs = []
+                    for similar_word_and_prob in self.model.similar_by_word(
                             token.word_without_punctuations):
-                        if similar_word != token.word_without_punctuations:
-                            token.replaced_word = similar_word
-                            break
+                        if similar_word_and_prob[0] != token.word_without_punctuations:
+                            replacement_words_and_probs.append(similar_word_and_prob)
+
+                    if replacement_words_and_probs:
+                        token.replacements_langmod_and_prob = replacement_words_and_probs
                 except KeyError:
                     pass
 
