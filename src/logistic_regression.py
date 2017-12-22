@@ -73,7 +73,7 @@ class LogReg:
         if index > len(sentence) - 3:
             feature["+2_%s" % self.NONE_WORD] += 1.0
         else:
-            feature["+2_%s" % sentence[index + 1]] += 1.0
+            feature["+2_%s" % sentence[index + 2]] += 1.0
 
         return feature
 
