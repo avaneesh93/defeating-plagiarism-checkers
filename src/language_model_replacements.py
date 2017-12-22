@@ -2,6 +2,7 @@ import gensim
 
 import remove_punctuations
 import tokenize_input_text
+from check_candidate_type import is_candidate_type
 
 FILE_FACEBOOK_WORD_VECTORS = './../datasets/wiki.en.vec'
 
@@ -15,6 +16,9 @@ class LanguageModelReplacement:
     def set_language_model_replacements(self, all_tokens_of_all_sentences):
         for sentence in all_tokens_of_all_sentences:
             for token in sentence:
+                if not is_candidate_type(token.pos):
+                    continue
+
                 try:
                     replacement_words_and_probs = []
                     for word, prob in self.model.similar_by_word(
@@ -40,5 +44,5 @@ if __name__ == '__main__':
 
     for sentence in all_tokens_of_all_sentences:
         for token in sentence:
-            if token.pos == 'ADJ' and not token.is_stopword:
+            if is_candidate_type(token.pos) and not token.is_stopword:
                 print(token)

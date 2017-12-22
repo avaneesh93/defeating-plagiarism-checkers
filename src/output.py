@@ -36,6 +36,9 @@ def generate_output_text_from_tokens(all_tokens_of_all_sentences):
 
                 output_text += replaced_word
 
+            elif token.original_word:
+                output_text += token.original_word
+
     return output_text
 
 
