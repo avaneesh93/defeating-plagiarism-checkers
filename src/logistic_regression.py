@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 
 import tokenize_input_text
 from check_candidate_type import is_candidate_type_log_reg, is_candidate_type
-from get_synonym import *
+from get_synonym import Synonym
 from pickle_util import *
 
 
@@ -17,6 +17,7 @@ class LogReg:
     FILE_MODEL_PKL = './../datasets/model.pkl'
     FILE_VECTORIZER_PKL = './../datasets/vectorizer.pkl'
     FILE_DIR_SEMCOR = "./../datasets/semcor"
+    FILE_DIR_MASC = "./../datasets/masc"
     NONE_WORD = "$"
     NONE_SENSE = "#"
     encoder = LabelEncoder()
@@ -138,6 +139,7 @@ class LogReg:
         return self.model.predict(self.vectorizer.transform(features))
 
     def set_replacements_in_tokens(self, all_tokens_of_all_sentences):
+        synonym = Synonym()
         for sent_index, sentence in enumerate(all_tokens_of_all_sentences):
 
             # Build a list of only tokens (without punctuations)
@@ -150,7 +152,7 @@ class LogReg:
                     continue
 
                 new_words = []
-                pos_names = list(get_synonym(senses[token_index]))
+                pos_names = list(synonym.get_synonym(senses[token_index]))
                 if len(pos_names) == 0:
                     continue
 
