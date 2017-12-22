@@ -35,12 +35,12 @@ class LogReg:
             X = vectorizer.fit_transform(X)
             print("---------Transformed features-----------")
 
-            X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+            # X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
             model = LogisticRegression()
-            model.fit(X_train, y_train)
+            model.fit(X, y)
 
-            print(model.score(X_test, y_test))
+            # print(model.score(X_test, y_test))
             # with open('model.pkl', 'wb') as f:
             #     pickle.dump(model, f, pickle.HIGHEST_PROTOCOL)
             save(model, self.FILE_MODEL_PKL)
@@ -63,7 +63,7 @@ class LogReg:
         else:
             feature["-1_%s" % sentence[index - 1]] += 1.0
 
-            feature["0_%s" % sentence[index]] += 1.0
+        feature["0_%s" % sentence[index]] += 1.0
 
         if index > len(sentence) - 2:
             feature["+1_%s" % self.NONE_WORD] += 1.0
