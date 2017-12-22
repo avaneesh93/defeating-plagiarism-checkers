@@ -2,6 +2,7 @@ import nltk
 from nltk.corpus import gutenberg
 from nltk.tokenize.punkt import PunktTrainer, PunktSentenceTokenizer
 
+from pos import set_parts_of_speech_in_tokens
 from remove_punctuations import remove_surrounding_punctuations
 from token_class import Token
 
@@ -59,5 +60,7 @@ def tokenize(paragraph):
             tokens_in_this_sentence.append(token)
 
         all_tokens_of_all_sentences.append(tokens_in_this_sentence)
+
+    set_parts_of_speech_in_tokens(all_tokens_of_all_sentences)
 
     return all_tokens_of_all_sentences

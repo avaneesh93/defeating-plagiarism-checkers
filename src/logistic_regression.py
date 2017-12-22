@@ -137,7 +137,7 @@ class LogReg:
 
         return self.model.predict(self.vectorizer.transform(features))
 
-    def get_replacements(self, all_tokens_of_all_sentences):
+    def set_replacements_in_tokens(self, all_tokens_of_all_sentences):
         for sent_index, sentence in enumerate(all_tokens_of_all_sentences):
 
             # Build a list of only tokens (without punctuations)
@@ -160,10 +160,6 @@ class LogReg:
                     if new_words:
                         sentence[token_index].replacements_logreg = new_words
 
-            all_tokens_of_all_sentences[sent_index] = sentence
-
-        return all_tokens_of_all_sentences
-
 
 if __name__ == '__main__':
     paragraph = open('./../datasets/test.txt', encoding='utf8').read()
@@ -172,7 +168,7 @@ if __name__ == '__main__':
 
     log_reg = LogReg()
 
-    all_tokens_of_all_sentences = log_reg.get_replacements(all_tokens_of_all_sentences)
+    log_reg.set_replacements_in_tokens(all_tokens_of_all_sentences)
 
     for sentence in all_tokens_of_all_sentences:
         for token in sentence:

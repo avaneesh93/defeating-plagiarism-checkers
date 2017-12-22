@@ -38,10 +38,7 @@ if __name__ == '__main__':
     lmr = LanguageModelReplacement()
     lmr.set_language_model_replacements(all_tokens_of_all_sentences)
 
-    print(all_tokens_of_all_sentences)
-
-    print('~~~~~~~~~~~~~~~')
-
     for sentence in all_tokens_of_all_sentences:
         for token in sentence:
-            print(token)
+            if token.pos == 'ADJ' and not token.is_stopword:
+                print(token)
