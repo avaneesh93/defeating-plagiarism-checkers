@@ -10,10 +10,10 @@ def remove_surrounding_punctuations(word):
     if not word:
         return word
 
-    while word[0] in PUNCTUATIONS:
+    while len(word) > 1 and word[0] in PUNCTUATIONS:
         word = word[1:]
 
-    while word[-1] in PUNCTUATIONS:
+    while len(word) > 1 and word[-1] in PUNCTUATIONS:
         word = word[:-1]
 
     return word
