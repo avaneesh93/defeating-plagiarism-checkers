@@ -7,7 +7,7 @@ from copyleaks.product import Product
 def detect_plagiarism(text):
     cloud = CopyleaksCloud(Product.Education, 'avaneesh.umass@gmail.com',
                            'C7DC59D1-54D5-4DC3-9EB7-1CC497B9E557')
-    process = cloud.createByText(text)
+    process = cloud.createByText(text.encode(encoding='utf8'))
 
     print('Checking for Plagiarism...')
     is_completed = False
