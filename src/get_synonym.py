@@ -6,6 +6,8 @@ from nltk.corpus import wordnet as wn
 INDEX_PATH = "./../datasets/index.sense"
 MANUAL_MAP = "./../datasets/manual_map.txt"
 ALGO_MAP = "./../datasets/algorithmic_map.txt"
+FILE_SENSE_INDEX = './../datasets/sense_index.pkl'
+FILE_NOAD_TO_WN = './../datasets/noad_to_wn.pkl'
 
 
 def get_synsets(offsets):
@@ -19,10 +21,10 @@ def get_synonym(sense):
     sense_dict = {}
     noad_to_wn = {}
 
-    if os.path.isfile('sense_index.pkl') and os.path.isfile('noad_to_wn.pkl'):
-        with open('sense_index.pkl', 'rb') as f:
+    if os.path.isfile(FILE_SENSE_INDEX) and os.path.isfile(FILE_NOAD_TO_WN):
+        with open(FILE_SENSE_INDEX, 'rb') as f:
             sense_dict = pickle.load(f)
-        with open('noad_to_wn.pkl', 'rb') as f:
+        with open(FILE_NOAD_TO_WN, 'rb') as f:
             noad_to_wn = pickle.load(f)
     else:
         with open(INDEX_PATH, 'r') as f:

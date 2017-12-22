@@ -1,3 +1,4 @@
+import nltk
 from nltk.corpus import gutenberg
 from nltk.tokenize.punkt import PunktTrainer, PunktSentenceTokenizer
 
@@ -33,6 +34,8 @@ def split_paragraph_into_sentences(paragraph):
 
 
 def tokenize(paragraph):
+    stopwords = set(nltk.corpus.stopwords.words('english'))
+
     sentences = split_paragraph_into_sentences(paragraph)
 
     all_tokens_of_all_sentences = []
@@ -44,6 +47,11 @@ def tokenize(paragraph):
             token = Token()
             token.original_word = word
             token.word_without_punctuations = remove_surrounding_punctuations(word).lower()
+
+            if token.word_without_punctuations in stopwords:
+                token.is_stopword = True
+            else:
+                token.is_stopword = False
 
             tokens_in_this_sentence.append(token)
 
