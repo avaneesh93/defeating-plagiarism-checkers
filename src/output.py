@@ -1,4 +1,5 @@
 from remove_punctuations import PUNCTUATIONS, remove_surrounding_punctuations
+from token_class import Token
 
 
 def restore_case(replaced_word, original_word):
@@ -37,9 +38,9 @@ def generate_output_text_from_tokens(all_tokens_of_all_sentences):
                 output_text += replaced_word
 
             elif token.original_word:
-                output_text += token.original_word
+                output_text += token.original_word + " "
 
-    return output_text
+    return output_text.strip()
 
 
 if __name__ == '__main__':
@@ -50,3 +51,15 @@ if __name__ == '__main__':
     rep = restore_punctuations(rep, orig)
 
     print(rep)
+
+    t1 = Token()
+    t1.original_word = 'This'
+
+    t2 = Token()
+    t2.original_word = 'is'
+
+    t3 = Token()
+    t3.original_word = 'amazing!'
+    t3.replaced_word = 'awesome'
+
+    print(generate_output_text_from_tokens([[t1, t2, t3]]))
