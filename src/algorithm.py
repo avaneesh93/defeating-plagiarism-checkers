@@ -14,16 +14,19 @@ def get_plagiarism_free_text(input_text):
     all_tokens_of_all_sentences = tokenize(input_text)
 
     print('Tokens after being read:')
-    print(all_tokens_of_all_sentences + '\n\n\n\n')
+    print(all_tokens_of_all_sentences)
+    print('\n\n\n')
 
     LogReg().set_replacements_in_tokens(all_tokens_of_all_sentences)
 
     print('Tokens after LogReg:')
-    print(all_tokens_of_all_sentences + '\n\n\n\n')
+    print(all_tokens_of_all_sentences)
+    print('\n\n\n')
 
     LanguageModelReplacement().set_language_model_replacements(all_tokens_of_all_sentences)
     print('Tokens after LangMod:')
-    print(all_tokens_of_all_sentences + '\n\n\n\n')
+    print(all_tokens_of_all_sentences)
+    print('\n\n\n')
 
     # TODO Add synonym API as well?
 
