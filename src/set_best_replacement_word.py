@@ -16,20 +16,19 @@ def set_best_replacement_word(all_tokens_of_all_sentences, replacements_to_do):
                                         intersect(token.replacements_langmod,
                                                   token.replacements_logreg)
                                     ) > 0:
-                        for logreg_rep in token.replacements_logreg:
-                            if lang_rep == logreg_rep:
-                                token.replaced_word = lang_rep
-                                print('Replacing %s with %s -- 1' % (token.original_word,
-                                                                     token.replaced_word))
-                                replacement_count += 1
+                        if lang_rep in token.replacements_logreg:
+                            token.replaced_word = lang_rep
+                            print('Replacing %s with %s -- 1' % (token.original_word,
+                                                                 token.replaced_word))
+                            replacement_count += 1
 
-                                token.replacements_langmod = None
-                                token.replacements_logreg = None
+                            token.replacements_langmod = None
+                            token.replacements_logreg = None
 
-                                if replacement_count >= replacements_to_do:
-                                    return
+                            if replacement_count >= replacements_to_do:
+                                return
 
-                                break
+                            break
                     else:
                         token.replaced_word = lang_rep
                         print('Replacing %s with %s -- 2' % (token.original_word,
