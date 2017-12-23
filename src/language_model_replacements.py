@@ -20,16 +20,16 @@ class LanguageModelReplacement:
                     continue
 
                 try:
-                    replacement_words_and_probs = []
+                    replacement_words = []
                     for word, prob in self.model.similar_by_word(
                             token.word_without_punctuations):
                         word = remove_punctuations.remove_surrounding_punctuations(word)
 
                         if word != token.word_without_punctuations:
-                            replacement_words_and_probs.append((word, prob))
+                            replacement_words.append(word)
 
-                    if replacement_words_and_probs:
-                        token.replacements_langmod_and_prob = replacement_words_and_probs
+                    if replacement_words:
+                        token.replacements_langmod = replacement_words
                 except KeyError:
                     pass
 
