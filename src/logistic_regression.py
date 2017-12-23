@@ -160,6 +160,8 @@ class LogReg:
                     if is_candidate_pos_type_log_reg(pos):
                         for name in names:
                             if name != tokens_of_sentence[token_index]:
+                                print('Found LogReg replacement for %s = %s' %
+                                      (tokens_of_sentence[token_index], name))
                                 new_words.append(name)
 
                     if new_words:
