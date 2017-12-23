@@ -42,6 +42,9 @@ Please note that this project uses Python 3.x
 For installing all packages, "cd" to <Project Code Root Directory>, and execute:
 pip3 install -r requirements.txt
 
+P.S.:
+The package "language-check" needs Java to be installed in the operating  system.
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To execute the project, please paste your text (whose plagiarism needs to be possibly reduced)
