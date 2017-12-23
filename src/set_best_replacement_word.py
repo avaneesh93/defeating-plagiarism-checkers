@@ -6,7 +6,7 @@ def set_best_replacement_word(all_tokens_of_all_sentences, replacements_to_do):
 
     for sentence in all_tokens_of_all_sentences:
         for token in sentence:
-            if not is_candidate_pos_type(token.pos):
+            if not is_candidate_pos_type(token.pos) or token.is_stopword:
                 continue
 
             if token.replacements_langmod:

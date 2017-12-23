@@ -148,7 +148,8 @@ class LogReg:
             senses = self.predict_sense(tokens_of_sentence)
 
             for token_index in range(len(sentence)):
-                if not is_candidate_pos_type(sentence[token_index].pos):
+                if not is_candidate_pos_type(sentence[token_index].pos) or \
+                        sentence[token_index].is_stopword:
                     continue
 
                 new_words = []

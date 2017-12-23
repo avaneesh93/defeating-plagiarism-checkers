@@ -16,7 +16,7 @@ class LanguageModelReplacement:
     def set_language_model_replacements(self, all_tokens_of_all_sentences):
         for sentence in all_tokens_of_all_sentences:
             for token in sentence:
-                if not is_candidate_pos_type(token.pos):
+                if not is_candidate_pos_type(token.pos) or token.is_stopword:
                     continue
 
                 try:
