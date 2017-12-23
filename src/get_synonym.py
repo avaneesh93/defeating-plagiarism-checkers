@@ -1,5 +1,6 @@
 import os
 import pickle
+import nltk
 
 from nltk.corpus import wordnet as wn
 
@@ -13,6 +14,7 @@ FILE_NOAD_TO_WN = './../datasets/noad_to_wn.pkl'
 class Synonym:
 
     def __init__(self):
+        nltk.download('wordnet')
         sense_dict = {}
         noad_to_wn = {}
 
