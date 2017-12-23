@@ -3,3 +3,4 @@ gensim
 scikit-learn
 copyleaks
 nltk
+language-check
