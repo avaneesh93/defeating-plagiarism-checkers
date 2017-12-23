@@ -1,4 +1,5 @@
 from detect_plagiarism import detect_plagiarism
+from grammar import repair_grammar
 from language_model_replacements import LanguageModelReplacement
 from logistic_regression import LogReg
 from output import generate_output_text_from_tokens
@@ -42,7 +43,14 @@ def get_plagiarism_free_text(input_text):
             detect_plagiarism(generate_output_text_from_tokens(all_tokens_of_all_sentences))
         iterations += 1
 
-    return generate_output_text_from_tokens(all_tokens_of_all_sentences)
+    output_text = generate_output_text_from_tokens(all_tokens_of_all_sentences)
+
+    print('\n\n\nOutput Text before Repairing Basic Grammar Issues:')
+    print(output_text)
+
+    output_text = repair_grammar(output_text)
+
+    return output_text
 
 
 def print_tokens(all_tokens_of_all_sentences):
