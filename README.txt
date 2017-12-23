@@ -1,3 +1,15 @@
+The Google WSD Dataset needs to be downloaded from:
+https://research.googleblog.com/2017/01/a-large-corpus-for-supervised-word.html
+
+Files and folders: "masc", "semcor", "manual_map.txt"
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The WordNet data in the form of the file "index.sense" needs to be downloaded from:
+https://wordnet.princeton.edu/wordnet/download/current-version/
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 This project requires some model files to be either downloaded or generated,
 and some model files to downloaded.
 
