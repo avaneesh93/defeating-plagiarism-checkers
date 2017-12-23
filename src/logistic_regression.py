@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 
 import tokenize_input_text
-from check_candidate_type import is_candidate_type_log_reg, is_candidate_type
+from check_candidate_type import is_candidate_pos_type_log_reg, is_candidate_pos_type
 from get_synonym import Synonym
 from pickle_util import *
 
@@ -148,7 +148,7 @@ class LogReg:
             senses = self.predict_sense(tokens_of_sentence)
 
             for token_index in range(len(sentence)):
-                if not is_candidate_type(sentence[token_index].pos):
+                if not is_candidate_pos_type(sentence[token_index].pos):
                     continue
 
                 new_words = []
@@ -157,7 +157,7 @@ class LogReg:
                     continue
 
                 for pos, names in pos_names:
-                    if is_candidate_type_log_reg(pos):
+                    if is_candidate_pos_type_log_reg(pos):
                         for name in names:
                             if name != tokens_of_sentence[token_index]:
                                 new_words.append(name)

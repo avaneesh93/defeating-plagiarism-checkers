@@ -1,4 +1,4 @@
-from check_candidate_type import is_candidate_type
+from check_candidate_type import is_candidate_pos_type
 
 
 def set_best_replacement_word(all_tokens_of_all_sentences, replacements_to_do):
@@ -6,7 +6,7 @@ def set_best_replacement_word(all_tokens_of_all_sentences, replacements_to_do):
 
     for sentence in all_tokens_of_all_sentences:
         for token in sentence:
-            if not is_candidate_type(token.pos):
+            if not is_candidate_pos_type(token.pos):
                 continue
 
             if token.replacements_langmod_and_prob:

@@ -1,10 +1,10 @@
-CANDIDATE_POS_TYPES = ['ADJ']
-CANDIDATE_POS_TYPES_LOGREG = ['a']
+CANDIDATE_POS_TYPES = ['ADJ', 'JJ', 'JJR', 'JJS']
+CANDIDATE_POS_TYPES_LOGREG = ['a', 's']
 
 
-def is_candidate_type(pos):
+def is_candidate_pos_type(pos):
     return pos in CANDIDATE_POS_TYPES
 
 
-def is_candidate_type_log_reg(pos):
+def is_candidate_pos_type_log_reg(pos):
     return pos in CANDIDATE_POS_TYPES_LOGREG
