@@ -6,7 +6,7 @@ class Token:
     pos = None
     lm_probability = None
     replacements_logreg = None
-    replacements_langmod_and_prob = None
+    replacements_langmod = None
 
     def __str__(self):
         sb = []
