@@ -1,5 +1,5 @@
-CANDIDATE_POS_TYPES = ['JJ', 'JJR', 'JJS']
-CANDIDATE_POS_TYPES_LOGREG = ['a', 's']
+CANDIDATE_POS_TYPES = ['JJ', 'JJR', 'JJS', 'VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']
+CANDIDATE_POS_TYPES_LOGREG = ['a', 's', 'v']
 
 
 def is_candidate_pos_type(pos):
